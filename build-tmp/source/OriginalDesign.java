@@ -80,8 +80,9 @@ cursor();
 }
 public void cursor()
 {
-  fill(255,0,0);
-  ellipse(mouseX,mouseY,30,30);
+  fill(mouseX,mouseY,mouseY);
+  ellipse(mouseX,mouseY,15,15);
+
 }
 
 
